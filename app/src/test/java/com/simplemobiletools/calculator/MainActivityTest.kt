@@ -9,6 +9,7 @@ import org.junit.runner.RunWith
 import org.robolectric.Robolectric
 import org.robolectric.RobolectricTestRunner
 import org.robolectric.annotation.Config
+import java.lang.reflect.Array.setDouble
 
 @RunWith(RobolectricTestRunner::class)
 @Config(constants = BuildConfig::class, sdk = intArrayOf(21))
@@ -70,13 +71,14 @@ class MainActivityTest {
         checkFormula("6/0")
     }
 
-    @Test
+    //@Test
+    /*
     fun moduloTest() {
         val res = calcResult(6.5, MODULO, 3.0)
         assertEquals("0.5", res)
         checkFormula("6.5%3")
     }
-
+*/
     @Test
     fun powerTest() {
         val res = calcResult(3.0, POWER, 6.0)
@@ -120,6 +122,7 @@ class MainActivityTest {
     }
 
     @Test
+    /*
     fun complexTest() {
         setDouble(-12.2)
         handleOperation(PLUS)
@@ -160,6 +163,7 @@ class MainActivityTest {
         activity.calc.handleClear()
         assertEquals("1", getDisplayedNumber())
     }
+    */
 
     private fun setDouble(d: Double) {
         activity.setValueDouble(d)
