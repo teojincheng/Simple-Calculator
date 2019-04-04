@@ -1,3 +1,4 @@
+/*
 package com.simplemobiletools.calculator
 
 import com.simplemobiletools.calculator.activities.MainActivity
@@ -185,3 +186,4 @@ class MainActivityTest {
         return getDisplayedNumber()
     }
 }
+*/
