@@ -1,5 +1,8 @@
 # This project is copied from : https://github.com/SimpleMobileTools/Simple-Calculator
 
+[![Build Status](https://travis-ci.com/teojincheng/Simple-Calculator.svg?branch=master)](https://travis-ci.com/teojincheng/Simple-Calculator)
+
+
 # Simple Calculator
 <img alt="Logo" src="app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" width="80">
 
