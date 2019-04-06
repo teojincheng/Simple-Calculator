@@ -33,8 +33,8 @@ public class MTest {
         openActionBarOverflowOrOptionsMenu(getInstrumentation().getTargetContext());
         onView(withText("Settings")).perform(click());
 
-        //onView(withId(R.id.settings_holder)).check(matches(isCompletelyDisplayed()));
-        onView(withId(R.id.config_bg_color)).check(matches(isCompletelyDisplayed()));
+        onView(withId(R.id.settings_holder)).check(matches(isCompletelyDisplayed()));
+
 
 
 
