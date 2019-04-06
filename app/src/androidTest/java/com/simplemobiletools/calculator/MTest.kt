@@ -1,3 +1,4 @@
+/*
 package com.simplemobiletools.calculator
 
 import androidx.test.core.app.ActivityScenario
@@ -38,3 +39,4 @@ public class MTest {
 
     }
 }
+*/
